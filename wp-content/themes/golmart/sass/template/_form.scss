@@ -1,0 +1,165 @@
+/*
+*  Form
+*/
+/* Button
+------------------------------------------------*/
+.btn-cart a{
+	@extend .btn-action, .btn-outline-inverse;
+}
+
+/* Search
+------------------------------------------------*/
+.btn-action{
+	@include border-radius(4px);
+    cursor: pointer;
+    display: inline-block;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding: 0px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    @include transition(all 0.4s ease 0s);
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.shopcol.col-md-3 .btn-action{
+	padding: 0px 6px;
+}
+.form-style-1{
+	overflow: hidden;
+	border: 2px solid $black;
+	min-height: 100px;
+	padding: 30px 25px 0;
+	> *{
+		@include rtl-float-left();
+		@include rtl-margin-right(2%);
+		&:last-child{
+			@include rtl-margin-right(0);
+		}
+	}
+	.description{
+		width: 25%;
+		text-transform: uppercase;
+		.title{
+			display: block;
+			font-size: $font-size-base;
+			font-weight: 900;
+			color: $black;
+			line-height: 16px;
+			margin-top: -5px;
+			@media(max-width: $screen-md-max){
+				font-size: 11px;
+			}
+		}
+		.desc{
+			display: block;
+			font-size: $font-size-base - 4;
+			font-weight: 400;
+			color: $color-2;
+			line-height: 20px;
+			@media(max-width: $screen-md-max){
+				display: none;
+			}
+		}
+		.content{
+			display: none;
+		} 
+	}
+	.input-form{
+		width: 45%;
+	}
+	.button-submit{
+		width: 25%;
+		input{
+			width: 100%;
+			height: 36px;
+			line-height: 100%;
+		}
+	}
+}
+
+.wpo-search{
+	@include rtl-text-align-left();
+	@include border-radius($search-border-radius);
+	overflow: hidden;
+	.input-search{
+		padding: $search-padding;
+		background: $search-bg;
+		@include font-size(font-size,$search-font-size);
+		@include placeholder($text-color);
+		&:hover,&:focus{
+			@include box-shadow(none);
+		}
+	}
+	.fa{
+		border: 0;
+		padding: 0;
+		color: $search-main-button-color;
+		background: none transparent;
+		@include rotate(80deg);
+	}
+	.btn-search{
+		cursor: pointer;
+	}
+}
+/* comment form
+------------------------------------------------*/
+
+/* Select, Input
+------------------------------------------------*/
+// input[type="text"],
+// input[type="number"],
+// input[type="email"],
+// input[type="password"],
+// textarea,select{
+// 	border: 1px solid $input-border;
+// 	padding: $input-padding;
+// }
+
+.chosen-container{
+	width: 100% !important;
+}
+
+.input-group-form{
+	@include border-radius(3px);
+	background: $input-group-form-bg;
+	margin: $input-group-form-margin;
+	.form-control-reversed{
+		border: 0px;
+		background: $input-form-bg;
+		color: darken($white, 20%);
+	    @include font-size(font-size,14px);
+	    height: 34px;
+	    &:hover,
+	    &:focus{
+	        @include box-shadow(none);
+	    }
+	}
+	.input-group-addon{
+        border: 0;
+        background: $input-form-bg;
+        @include border-left-radius(4px);
+    }
+}
+
+.select{
+	overflow: hidden;
+	width: 180px;
+	cursor: pointer;
+	margin: 0;
+	font-weight: 300;
+	border: 1px solid $border-color;
+	select{
+		@include appearance();
+		width:210px;
+		border: 0;
+		cursor: pointer;
+		background: transparent url("#{$image-theme-path}arrow.png") no-repeat 85% center;
+		color: #000;
+		&:hover,&:focus{
+			outline: none !important;
+			@include box-shadow(none);
+		}
+	}
+}
+

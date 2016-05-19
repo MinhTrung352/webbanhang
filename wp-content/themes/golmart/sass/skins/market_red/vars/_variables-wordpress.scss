@@ -1,0 +1,39 @@
+$theme-color:               		#f44336;
+$theme-color-second: 				#222222;
+
+$image-theme-path                   :'../../../images/';
+$image-theme-skin                   :'../../../images/skins/cd/';
+$woo-font-path                      :'../../../fonts/woocommerce/';
+$theme-font-path                 	: '../../../fonts/';
+// Font
+// -------------------------
+$font-family-heading 				: 'Rhodium Libre';
+
+// Breadcrumb
+// -------------------------
+$breadcrumb-bg       : rgba($black, 0.01);
+$breadcrumb-bg-image : url("#{$image-theme-path}breadcrumb-bg.png");
+$breadcrumb-border   : 0px;
+
+// Typography
+// --------------------------
+$font-size-lg       : 48px;
+ 
+// Box
+// --------------------------
+$box-heading-font-size:             16px;
+
+//Font slide
+$font-slide-primary		: 'Poppins';
+$font-slide-second		: 'Rhodium Libre';
+
+//Layout
+//---------------------------
+@import
+    "form",
+    "layout",
+    "menu",
+    "page",
+    "post-vars",
+    "visual-vars",
+    "widget";

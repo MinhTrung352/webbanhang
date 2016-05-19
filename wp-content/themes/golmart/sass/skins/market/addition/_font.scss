@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'icomoon';
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?');
+    src:url('#{$theme-font-path}icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+        url('#{$theme-font-path}icomoon/icomoon.svg?#icomoon') format('svg'),
+        url('#{$theme-font-path}icomoon/icomoon.woff') format('woff'),
+        url('#{$theme-font-path}icomoon/icomoon.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone-outline:before {
+  content: "\e604";
+}
+
+.icon-cycle:before {
+  content: "\e601";
+}
+
+.icon-tag:before {
+  content: "\e600";
+}
+
+.icon-bubble:before {
+  content: "\e602";
+}
+
+.icon-truck:before {
+  content: "\e603";
+}
+
+ 
+
+//Poppins
+//----------------------------------------
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Poppins Light'), local('Poppins-Light'), url(http://fonts.gstatic.com/s/poppins/v1/D2gN9uyZ9Ucx1fJ1Fhb7swzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poppins/v1/D2gN9uyZ9Ucx1fJ1Fhb7s73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins'), local('Poppins-Regular'), url(http://fonts.gstatic.com/s/poppins/v1/HUuNgGR31mqIHE6zs0BlBgLUuEpTyoUstqEm5AMlJo4.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poppins/v1/ePBp1XdWMQqYWkm0HYfk2gLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(http://fonts.gstatic.com/s/poppins/v1/yQWaOD4iNU5NTY0apN-qjwzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poppins/v1/yQWaOD4iNU5NTY0apN-qj73hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(http://fonts.gstatic.com/s/poppins/v1/zO07Oxe3SOlw0l2YX2sdIQzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poppins/v1/zO07Oxe3SOlw0l2YX2sdIb3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Poppins Bold'), local('Poppins-Bold'), url(http://fonts.gstatic.com/s/poppins/v1/57TQ-anwthzkETEIO4jESAzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/poppins/v1/57TQ-anwthzkETEIO4jESL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Rhodium Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rhodium Libre'), local('RhodiumLibre-Regular'), url(http://fonts.gstatic.com/s/rhodiumlibre/v1/Vxr7A4-xE2zsBDDI8BcseAYWpCd0FFfjqwFBDnEN0bM.woff2) format('woff2'), url(http://fonts.gstatic.com/s/rhodiumlibre/v1/Vxr7A4-xE2zsBDDI8BcseIkaQb-UsZVONjobs91YQtw.woff) format('woff');
+}

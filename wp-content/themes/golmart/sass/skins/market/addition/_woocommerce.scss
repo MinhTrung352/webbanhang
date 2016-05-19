@@ -1,0 +1,162 @@
+.style-market{
+    border: none;
+    background: $nocolor!important;
+    margin-bottom: 5px;
+    .name{
+        min-height: 55px;
+        padding: 0;
+    }
+    .button-action{
+        > div{  
+            position: absolute;
+            bottom: 20px;
+            left: 0px;
+            @include size(35px, 35px);
+            @include transition-property(all);
+            @include transition-duration(0.35s);
+            @include opacity(0);
+            &.yith-wcwl-add-to-wishlist{
+                @include transition-delay(0.2s, 0s);
+            } 
+            &.yith-compare{
+                left: 40px;
+                @include transition-delay(0.3s, 0s);
+            } 
+            &.quick-view{
+                left: 80px;
+                @include transition-delay(0.4s, 0s);   
+            }
+            .title{
+                display: none;
+            }
+            a{
+                background: $theme-color; 
+                background: $theme-color; 
+                @include border-radius(3px);
+                color: $white!important;
+                line-height: 35px;
+                text-align: center!important;
+                @include size(35px, auto);
+                @include transition(all 0.35s);
+                @include box-shadow(0 1px 2px #d9d9d9);
+                i{
+                    margin: 0!important;
+                }
+                &:hover{
+                    background:$theme-color-second; 
+                    
+                    border-color: $theme-color-second;
+                    color: $white;
+                }
+            }
+        }
+    } 
+    .price{
+        padding: 0 10px;
+        line-height: 32px;
+        font-weight: 700;
+        line-height: 1;
+        min-height: 25px;
+        &.old-price{
+            color: $product-price-color;
+            del span{
+                font-size: 14px;
+                color: #999999;
+            }
+        }
+    }
+    .caption{
+        .meta{
+            position: relative;
+            text-align: left;
+            > div{
+                margin-bottom: 12px;
+                text-align: left;
+                &.rating{
+                    margin-bottom: 8px;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+            .name{
+                text-align: left;
+                text-transform: none;
+            }
+            .rating .star-rating{
+                display: inline-block;
+            }
+            .price{
+                padding: 0;
+            }
+        }
+        .action-bottom {
+            padding-bottom:$theme-padding / 2;
+            .btn-cart{
+                display: inline-block;
+                background:$theme-color; 
+              
+                display: inline-block;
+                @include border-radius(2px);
+                @include box-shadow(0 1px 2px #D2D6D7);
+                a{
+                    min-width: 135px;
+                    padding:6px;
+                    display: block;
+                    text-align: center;
+                    .fa, .icon{
+                        display: none;
+                    }
+                }
+                &:hover{
+                    background:$theme-color-second; 
+                  
+                } 
+                .icon-cart{
+                    display: none;
+                }
+                .title-cart{
+                    font-size: 12px;
+                    color: $white;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                @media(max-width: $screen-sm-max){
+                    .icon-cart{
+                        display: block!important;
+                        color: $white;
+                    }
+                    .title-cart{
+                        display: none!important;
+                    }
+                }
+            }
+        } 
+    }
+    &:hover{
+        .button-action > div{
+            @include opacity(1);
+            right: 10px;
+        }
+        .action-bottom .btn-cart{
+            background: $theme-color; 
+            
+            @include box-shadow(0 1px 1px $border-color);
+            .title-cart{
+                 color: $white;
+            }
+        }  
+    }
+}   	
+	
+.star-rating{
+    &:after, &:before{
+        color: #FACC68;
+    }
+    span{
+        &:after, &:before{ 
+            color: #FACC68;
+        }
+    }
+}
+ 

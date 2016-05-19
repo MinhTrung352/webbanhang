@@ -1,0 +1,92 @@
+
+/*  */
+
+$bo-carousel-md-width:                             44px !default;
+$bo-carousel-md-height:                            44px !default;
+
+$bo-carousel-sm-width:                             34px !default;
+$bo-carousel-sm-height:                            34px !default;
+
+$bo-carousel-xs-width:                             28px !default;
+$bo-carousel-xs-height:                            28px !default;
+
+/* carousel-controls-v1 */
+$bo-carousel-controls-v1-color:                    #999 !default;
+$bo-carousel-controls-v1-hover-color:              darken($bo-carousel-controls-v1-color, 15%) !default;
+$bo-carousel-controls-v1-bg:                       rgba(0, 0, 0, 0.5) !default;
+
+/* carousel-controls-v2 */
+$bo-carousel-controls-v2-color:                    #999 !default;
+$bo-carousel-controls-v2-hover-color:              darken($bo-carousel-controls-v2-color, 25%) !default;
+
+/* carousel-controls-v3 */
+$bo-carousel-controls-v3-color:                    #fff !default;
+$bo-carousel-controls-v3-hover-color:              #fff !default;
+$bo-carousel-controls-v3-bg:                       #8bc34a !default;
+$bo-carousel-controls-v3-hover-bg:                 darken($bo-carousel-controls-v3-bg, 15%) !default;
+
+
+
+/* Navigation Styles 
+
+
+
+*/
+
+/* carousel-indicators-v1 */
+$bo-carousel-indicators-v1-bg:                     #ddd !default;
+$bo-carousel-indicators-v1-hover-bg:               #8bc34a !default;
+
+/* carousel-indicators-v2 */
+$bo-carousel-indicators-v2-bg:                     #ddd !default;
+$bo-carousel-indicators-v2-hover-bg:               #8bc34a !default;
+
+/* carousel-indicators-v3 */
+$bo-carousel-indicators-v3-bg:                     #8bc34a !default;
+$bo-carousel-indicators-v3-hover-bg:               #8bc34a !default;
+
+/* carousel-indicators-v4 */
+$bo-carousel-indicators-v4-bg:                     #8bc34a !default;
+$bo-carousel-indicators-v4-hover-bg:               #8bc34a !default;
+
+
+/* carousel-indicators-v5 */
+$bo-carousel-indicators-v5-bg:                     #8bc34a !default;
+$bo-carousel-indicators-v5-hover-bg:               #8bc34a !default;
+
+/* carousel-indicators-v6 */
+$bo-carousel-indicators-v6-bg:                     #8bc34a !default;
+$bo-carousel-indicators-v6-hover-bg:               #8bc34a !default;
+
+
+ /* --- SCSS For Testimonials --- *//* testimonials default */
+$bo-testimonials-color:                              #696969;
+$bo-testimonials-a-color:                            #696969;
+$bo-testimonials-heading-color:                      #696969;							
+
+
+/* testimonials-v1 */
+$bo-testimonials-v1-color:                              #696969;
+$bo-testimonials-v1-a-color:                            #696969;
+$bo-testimonials-v1-background:                         #f3f3f3;
+$bo-testimonials-v1-light-background:                         #f3f3f3;
+$bo-testimonials-v1-light-color:                              #555;
+
+/* testimonials light */
+$bo-testimonials-light-color:                              #fff;
+$bo-testimonials-light-a-color:                            #fff;
+$bo-testimonials-light-heading-color:                      #fff;
+
+
+
+$bo-counter-color:                   $brand-success;
+$bo-counter-font-weight:             800;
+$bo-counter-font-size:               36px;
+
+$bo-counter-icon-font-size:          46px;
+$bo-counter-heading-font-weight:     700;
+
+$bo-style-icon-color:                              #fff!default;
+$bo-style-icon-hover-color:                        #fff!default;
+$bo-style-icon-bg:                                 $brand-success!default;
+$bo-style-icon-hover-bg:                           darken($bo-style-icon-bg, 5%)!default;

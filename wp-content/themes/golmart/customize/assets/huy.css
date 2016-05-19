@@ -1,0 +1,24 @@
+
+/* customize for body */ 
+a { color:#38bd3f} 
+a:hover { color:#decaca} 
+
+/* customize for header-main */ 
+
+/* customize for pav-mainnav */ 
+					
+					#wpo-mainnav .navbar-nav > li > a
+				 { color:#bd2dbd} 
+										
+					#wpo-mainnav .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, #wpo-mainnav .navbar-nav > .open > a:focus
+				 { color:#e8dfe8} 
+
+/* customize for footer */ 
+
+/* customize for powered */ 
+
+/* customize for product */ 
+
+/* customize for modules */ 
+
+/* customize for highlighted-modules */ 
