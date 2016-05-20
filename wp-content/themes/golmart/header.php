@@ -27,6 +27,16 @@
     <meta name="viewport" content="width=device-width">
     <link rel="profile" href="http://gmpg.org/xfn/11">
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/animate.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap-rtl.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/customize.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/font-awesome.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/nsbox.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/nsbox.min.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/prettyPhoto.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/template.css">
+    <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/woocommerce.css">
     <?php wp_head(); ?>
 </head>
 
