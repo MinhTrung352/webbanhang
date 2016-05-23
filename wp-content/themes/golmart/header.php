@@ -37,6 +37,12 @@
     <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/prettyPhoto.css">
     <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/template.css">
     <link  rel="stylesheet" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/woocommerce.css">
+   
+    <link  rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap-rtl.css">
+    <link  rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/customize.css">
+      <link  rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/font-awesome.css">
+       <link  rel="stylesheet" type="text/css" href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>/css/bootstrap.min.css">
+       <link  rel="stylesheet"  href="<?php echo get_bloginfo( 'stylesheet_directory' ); ?>css/main.css">
     <?php wp_head(); ?>
 </head>
 
